@@ -13,17 +13,30 @@
 </head>
 
 <body>
-    <header class="navbar">
+    <header>
         <nav class="navbar__itens">
             <h1 class="navbar__nome">CURRÍCULO</h1>
             <div class="navbar__itens__links">
-                <a href="#sobre">SOBRE</a>
-                <a href="#experiencia">EXPERIÊNCIA</a>
-                <a href="#formacao">FORMAÇÃO</a>
-                <a href="#habilidades">HABILIDADES</a>
-                <a href="#cursos">CERTIFICAÇÕES</a>
+                <li class="nav-item"><a href="#" class="nav-link">SOBRE</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">EXPERIÊNCIA</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">FORMAÇÃO</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">HABILIDADES</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">CERTIFICAÇÕES</a></li>
+            </div>
+            <div class="navbar__menu__butao">
+                <button><img class="icon" src="/img/menu_2.png"></button>
             </div>
         </nav>
+
+        <div class="navbar__mobile__menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">SOBRE</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">EXPERIÊNCIA</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">FORMAÇÃO</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">HABILIDADES</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">CERTIFICAÇÕES</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <section id="sobre">
@@ -90,7 +103,7 @@
                     <img src="/img/python_cor.png">
                     <img src="/img/office.png">
                 </div>
-                    <h5>IDIOMAS</h5>
+                <h5>IDIOMAS</h5>
                 <div class="habilidades__idiomas">
                     <p>INGLÊS INTERMEDIÁRIO - AMERICAN</p>
                     <p>ALEMÃO BÁSICO - DEUTSCH</p>
@@ -102,18 +115,20 @@
                 <h2>CURSOS & CERTIFICAÇÕES</h2>
             </div>
             <div class="cursos__link"></div>
-                <ul class="cursos__link__links">
-                    <li><a href="/certificados/pythondatascience.pdf">PYTHON PARA DATA SCIENCE: FUNÇÕES, PACOTES E PANDAS - ALURA</a></li>
-                    <li><a href="/certificados/python.pdf">PYTHON COM ORIENTAÇÃO A OBJETOS - ALURA</a></li>
-                    <li><a href="/certificados/excel.pdf">EXCEL - ALURA</a></li>
-                    <li><a href="/certificados/excelavancado.pdf">EXCEL DO BÁSICO AO AVANÇADO - UNDEMY</a></li>
-                    <li><a href="/certificados/ligadedados.pdf">LIGA DE DADOS - UFC</a></li>
-                </ul>
+            <ul class="cursos__link__links">
+                <li><a href="/certificados/pythondatascience.pdf">PYTHON PARA DATA SCIENCE: FUNÇÕES, PACOTES E PANDAS -
+                        ALURA</a></li>
+                <li><a href="/certificados/python.pdf">PYTHON COM ORIENTAÇÃO A OBJETOS - ALURA</a></li>
+                <li><a href="/certificados/excel.pdf">EXCEL - ALURA</a></li>
+                <li><a href="/certificados/excelavancado.pdf">EXCEL DO BÁSICO AO AVANÇADO - UNDEMY</a></li>
+                <li><a href="/certificados/ligadedados.pdf">LIGA DE DADOS - UFC</a></li>
+            </ul>
         </section>
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Amanda</p>
     </footer>
+    <script src="menu.js"></script>
 </body>
 
 </html>
