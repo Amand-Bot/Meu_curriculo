@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --cor-principal: #8696FE;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cor-principal);
+    
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+.navbar {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFFFF;
+}
+.navbar__itens {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    justify-content: space-between;
+}
+.navbar__itens__links {
+    display: flex;
+    padding: 0% 3% 0% 15%;
+    gap: 80px;   
+}
+.navbar__itens h1:hover {
+    color: var(--cor-principal);
+}
+.navbar__itens a:hover {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--cor-principal);
+}
+
+
+.navbar__itens__links a{
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-size: 20px;
+}
+
+/*Sobre*/
+.sobre {
+    display: flex;
+    flex-direction: column;
+}
+.sobre__nome {
+    font-size: 8rem;
+}
+.sobre__nome strong {
+    color: var(--cor-secundaria);
+}
+.sobre__contatos {
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+.sobre__texto {
+    font-size: 1.25rem;
+}
+.sobre__itens {
+    padding-top: 1.25rem; 
+}
+.sobre__itens img{
+    width: 5rem;
+    padding-left: 1.25rem;
+}
+.sobre__itens img:hover {
+    width: 5.5rem;
+}
+
+.bloco {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    border-bottom: 2px solid var(--cor-secundaria);
+    padding: 1.25rem;
+}
+.data {
+    font-weight: bold;
+}
+
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.habilidades__imagens img{
+    width: 5rem;
+    padding: 0.8rem;
+}
+.habilidades__imagens img:hover {
+    width: 5.5rem;
+}
+.habilidades__idiomas {
+    display: flex;
+    flex-direction: column;
+    color: var(--cor-secundaria);
+}
+.habilidades h5 {
+    padding-bottom: 15px;
+}
+.habilidades__idiomas p {
+    padding-bottom: 15px;
+    font-size: 1.25rem;
+}
+
+.cursos__link__links{
+    padding: 0% 0% 0% 5%;
+    justify-content: center;
+}
+.cursos__link__links li{
+    list-style-image: url(/img/code.png);
+}
+.cursos__link__links li:hover {
+    text-decoration: underline var(--cor-secundaria);
+}
+.cursos__link__links li a{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+
+section {
+    border-bottom: 2px solid var(--cor-secundaria);
+    font-family: 'Inter', sans-serif;
+    padding: 10%;
+}
+
+.container {
+    margin: 5%;
+}
+.container h2 {
+    font-size: 4rem;
+    padding-bottom: 1.25rem;
+}
+.container h4 {
+    font-size: 2rem;
+}
+
+.container h5 {
+    font-size: 1.25rem;
+}
+.rodape {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    padding: 28px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
