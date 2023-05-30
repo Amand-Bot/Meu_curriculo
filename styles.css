@@ -24,9 +24,15 @@ body, html{
 
 header {
     position: sticky;
-    top: 0;
+    top: auto;
     background-color: var(--cor-secundaria);
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
 .navbar__itens {
     display: flex;
@@ -39,14 +45,6 @@ header {
     padding: 0% 3% 0% 15%;
     gap: 80px;   
     list-style: none;
-}
-.navbar__itens h1:hover {
-    color: var(--cor-principal);
-}
-.navbar__itens a:hover {
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: var(--cor-principal);
 }
 .navbar__itens__links a{
     color: var(--cor-terciaria);
@@ -175,7 +173,18 @@ section {
     font-family: 'Inter', sans-serif;
 }
 
+.navbar__itens h1:hover {
+    color: var(--cor-principal);
+}
+.navbar__itens a:hover {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--cor-principal);
+}
+
 @media screen and (max-width: 730px) {
+
+    
 
     .navbar__itens {
         padding: 1.5rem 4rem;
@@ -197,9 +206,14 @@ section {
         text-align: center;
         padding-bottom: 1rem;
     }
-    .navbar__mobile__menu .nav-item {
+    .navbar__mobile__menu .nav-item{
         display: block;
         padding-top: 1.2rem;
+        
+    }
+    .navbar__mobile__menu .nav-item a {
+        text-decoration: none;
+        color: var(--cor-terciaria);
     }
     .open {
         display: block;
