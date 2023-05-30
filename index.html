@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="myHeader">
         <nav class="navbar__itens">
             <h1 class="navbar__nome">CURRÍCULO</h1>
             <div class="navbar__itens__links">
@@ -24,10 +24,9 @@
                 <li class="nav-item"><a href="#cursos" class="nav-link">CERTIFICAÇÕES</a></li>
             </div>
             <div class="navbar__menu__butao">
-                <button><img class="icon" src="/img/menu_2.png"></button>
+                <button onclick="menuShow()"><img class="icon" src="/img/menu_2.png" alt=""></button>
             </div>
         </nav>
-
         <div class="navbar__mobile__menu">
             <ul>
                 <li class="nav-item"><a href="#sobre" class="nav-link">SOBRE</a></li>
@@ -38,6 +37,8 @@
             </ul>
         </div>
     </header>
+    <script src="/menu.js"></script>
+    <script src="/header.js"></script>
     <main>
         <section id="sobre">
             <div class="container sobre">
@@ -128,7 +129,7 @@
     <footer class="rodape">
         <p>Desenvolvido por Amanda</p>
     </footer>
-    <script src="menu.js"></script>
+    
 </body>
 
 </html>
