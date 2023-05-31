@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;500&display=swap');
 
 :root {
-    --cor-principal: #8696FE;
-    --cor-secundaria: #FFFFFF;
-    --cor-terciaria: #000000;
+    --cor-principal: #F99B7D;
+    --cor-secundaria: #E76161;
+    --cor-terciaria: #B04759;
+    --cor-texto: #FFFFFF;
     --fonte-h1-mobile: 3rem;
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
   
 body{
@@ -44,7 +50,7 @@ main {
     list-style: none;
 }
 .navbar__itens__links a{
-    color: var(--cor-terciaria);
+    color: black;
     text-decoration: none;
     font-size: 1.25rem;
     font-size: 20px;
@@ -123,6 +129,7 @@ main {
     padding-bottom: 15px;
 }
 .habilidades__idiomas p {
+    color: black;
     padding-bottom: 15px;
     font-size: 1.25rem;
 }
@@ -139,7 +146,7 @@ main {
 }
 .cursos__link__links li a{
     text-decoration: none;
-    color: var(--cor-secundaria);
+    color: black;
 }
 
 
@@ -164,7 +171,7 @@ section {
     font-size: 1.25rem;
 }
 .rodape {
-    color: var(--cor-secundaria);
+    color: var(--cor-texto);
     background-color: var(--cor-terciaria);
     padding: 28px;
     text-align: center;
@@ -209,7 +216,7 @@ section {
     }
     .navbar__mobile__menu .nav-item a {
         text-decoration: none;
-        color: var(--cor-terciaria);
+        color: black;
     }
     .open {
         display: block;
@@ -260,7 +267,7 @@ section {
         flex-direction: column;
         justify-content: space-between;
         font-size: 1.25rem;
-        border-bottom: 2px solid var(--cor-secundaria);
+        border-bottom: 2px solid black;
         padding: 1.25rem;
     }
     .data {
