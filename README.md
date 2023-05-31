@@ -1,7 +1,6 @@
 # Meu_curriculo
 Meu currículo web 
 
-![image] (C:\Users\amand\OneDrive\Área de Trabalho\curriculo-foto.png)
 
 ## Ferramentas utilizadas:
 
