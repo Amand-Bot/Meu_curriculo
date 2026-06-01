@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;500&display=swap');
 
 :root {
-    --cor-principal: #F99B7D;
-    --cor-secundaria: #E76161;
-    --cor-terciaria: #B04759;
-    --cor-texto: #FFFFFF;
+    --cor-principal: #0F2854;
+    --cor-secundaria: #1C4D8D;
+    --cor-terciaria: #4988C4;
+    --cor-texto: #BDE8F5;
     --fonte-h1-mobile: 3rem;
 }
 
@@ -37,6 +37,7 @@ main {
     flex-direction: column;
 }
 
+
 .navbar__itens {
     display: flex;
     align-items: center;
@@ -50,7 +51,7 @@ main {
     list-style: none;
 }
 .navbar__itens__links a{
-    color: black;
+    color:var(--cor-texto);
     text-decoration: none;
     font-size: 1.25rem;
     font-size: 20px;
@@ -68,12 +69,15 @@ main {
 .sobre {
     display: flex;
     flex-direction: column;
+    color: var(--cor-texto);
 }
 .sobre__nome {
     font-size: 8rem;
+    color: var(--cor-texto);
 }
 .sobre__nome strong {
     color: var(--cor-secundaria);
+    
 }
 .sobre__contatos {
     font-weight: bold;
@@ -82,6 +86,7 @@ main {
 }
 .sobre__texto {
     font-size: 1.25rem;
+    color: var(--cor-texto);
 }
 .sobre__itens {
     padding: 1.25rem; 
@@ -90,6 +95,7 @@ main {
     width: 4rem;
     justify-content: center;
     padding-left: 1.25rem;
+    color: var(--cor-texto);
 }
 .sobre__itens img:hover {
     width: 4.2rem;
@@ -106,11 +112,28 @@ main {
     font-weight: bold;
 }
 
+.experiencia {
+    color: var(--cor-texto);
+}
+
+.experiencia__emprego h3 {
+    color: var(--cor-terciaria);
+}
+
+.bloco_formacao__objetos {
+    color: var(--cor-terciaria);
+}
+
+.bloco_formacao__objetos p {
+    color: var(--cor-texto );
+}
+
 
 .habilidades {
     display: flex;
     flex-direction: column;
     padding-bottom: 15px;
+    color: var(--cor-texto);
 }
 
 .habilidades__imagens img{
@@ -129,7 +152,7 @@ main {
     padding-bottom: 15px;
 }
 .habilidades__idiomas p {
-    color: black;
+    color: var(--cor-texto);
     padding-bottom: 15px;
     font-size: 1.25rem;
 }
@@ -146,7 +169,7 @@ main {
 }
 .cursos__link__links li a{
     text-decoration: none;
-    color: black;
+    color: var(--cor-texto);
 }
 
 
@@ -162,13 +185,17 @@ section {
 .container h2 {
     font-size: 4rem;
     padding-bottom: 1.25rem;
+    color: var(--cor-texto);
 }
+
 .container h4 {
     font-size: 2rem;
+    color: var(--cor-terciaria);
 }
 
 .container h5 {
     font-size: 1.25rem;
+    color: var(--cor-terciaria)
 }
 .rodape {
     color: var(--cor-texto);
@@ -216,7 +243,7 @@ section {
     }
     .navbar__mobile__menu .nav-item a {
         text-decoration: none;
-        color: black;
+        color: var(--cor-texto);
     }
     .open {
         display: block;
